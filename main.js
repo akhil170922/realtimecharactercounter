@@ -11,4 +11,7 @@ textarea.addEventListener("input",function(){
     else{
         errors.innerHTML=" "
     }
+     if(count==300){
+        errors.innerHTML="limited to 300 characters"
+    }
 })
